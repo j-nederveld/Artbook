@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art Book</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css" />
+    <link href="stylesheets/artbook.css" rel="stylesheet" />
+    <link href="js/artbook.js" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://www.turnjs.com/lib/turn.min.js"></script>
+    </script>
+</head>
+
+<body class="bodyA">
+    <ul class="nav justify-content-end">
+        <li class="nav-item backbtn">
+
+            <a class="nav-link active" href="/members">&#8592; Back to Art Gallery</a>
+
+        </li>
+    </ul>
+    <h1>Welcome to your ArtBook</h1>
+    <h4>To see your saved images click on the top right corner of your ArtBook.</h4>
+
+
+    <div id="flipbook" style="margin: 0 auto;">
+        <div  class="hard">My ArtBook</div>        
+        <div class="hard"></div>
+    </div>
+    <script type="text/javascript">
+        $("#flipbook").turn({
+            width: 1000,
+            height: 660,
+        });
+    </script> 
+
+
+
+
+
+
+
+<div class="container" id="footer-container"></div>
+<!-- Footer -->
+<div class="footer">
+    <!-- add emial link and other info here -->
+    <p>ArtBook is currently a product of UCF BootCamp online. &copy; 2020</p>
+</div>
+</body>
+<script src="js/artbook.js"></script>
+
+</html>

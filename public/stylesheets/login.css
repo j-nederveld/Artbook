@@ -1,0 +1,137 @@
+body {
+  background-image: url(https://robbreport.com/wp-content/uploads/2019/02/louvre-c.jpg?w=1000);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#bodylogin {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50px,-50%);
+    -moz-transform: translate(-50%,-50px);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    
+    background: rgba(0,0,0, 0.7);
+  }
+  
+  .contact-form h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+
+    padding-top:19px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  
+  .contact-form input {
+    width: 50%;
+    margin-bottom: 15px;
+    margin-left: 154px;
+  }
+  
+  .contact-form input[type=email],
+  .contact-form input[type=password]{
+    border:none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 35px;
+    color: #fff;
+    font-size: 15px;
+  }
+  
+  .contact-form input[type=submit] {
+    height: 30px;
+    width: 180px;
+    color: white;
+    font-size: 17px;
+    background: #1c8adb;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 9px;
+    margin-left: 220px;
+    position: center;
+  }
+  
+  #bodylogin {
+    content: ' ';
+    
+  }
+  
+  .contact-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 700px;
+    height: 755px;
+    padding: 60px 40px;
+    box-sizing: border-box;
+  }
+  
+  #loginbtncolor {
+    color: white;
+  }
+  
+  .orlogin {
+    color: white;
+    width: 30px;
+    margin: -19px auto 1px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 1px;
+    text-align: center;
+  }
+  
+  .plogin {
+    margin-top: px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  a {
+  text-align: center;
+ 
+  }
+
+#artlogo{
+  margin-left: 40px;
+}
+
+
+h1 {
+  padding-top: 13px;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.info2 {
+  padding-bottom: -50px;
+}
+
+footer {
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #dfd7be;
+    color: black;
+    text-align: center;
+}

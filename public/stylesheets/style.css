@@ -1,0 +1,359 @@
+form.signup,
+form.login {
+  margin-top: 50px;
+}
+
+body {
+  background-color: #B88846;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  --line-offset: calc((10vh + 8px) / 2);
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.bodyA {
+  padding: 30px 0;
+  background-color: #f8f8ff;
+}
+
+.bodyA body {
+  padding: 0;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery {
+  width: 600px;
+  margin: auto;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-c {
+  width: 200px;
+  height: 200px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-w {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: transform ease-in-out 300ms;
+}
+
+.img-w img {
+  display: none;
+}
+
+.img-c {
+    transition: width ease 400ms, height ease 350ms, left cubic-bezier(0.4, 0, 0.2, 1) 420ms, top cubic-bezier(0.4, 0, 0.2, 1) 420ms;
+}
+
+.img-c:hover .img-w {
+  transform: scale(1.08);
+  transition: transform cubic-bezier(0.4, 0, 0.2, 1) 450ms;
+}
+
+.img-c.active {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute;
+  z-index: 2;
+  transform: translateX(-50%);
+}
+
+.img-c.postactive {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.img-c.active.positioned {
+  left: 0 !important;
+  top: 0 !important;
+  transition-delay: 50ms;
+} */
+
+.login-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+#navBar {
+  z-index: 23;
+
+}
+
+#containerlogin {
+  background: url(https://robbreport.com/wp-content/uploads/2019/02/louvre-c.jpg?w=1000);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  padding-bottom: 180px;
+}
+
+#containersignup {
+
+  background: url(https://static01.nyt.com/images/2016/09/28/well/well_guide_metropolitan-slide-I91T/well_guide_metropolitan-slide-I91T-jumbo-v3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  padding-bottom: 250px;
+}
+
+h2 {
+  font-weight: bold;
+  color: white;
+  font-style: italic;
+  font-size: 70px;
+}
+
+
+.email {
+  font-weight: bold;
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.password {
+  font-weight: bold;
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.link {
+  color: rgb(214, 2, 233);
+}
+
+.login-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.inputsignup {
+  margin: 0;
+  padding:0;
+  
+}
+
+.sign-up-form {
+  width: 300px;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0,3);
+  background: #fff;
+  padding:20px;
+  margin: 8% auto 0;
+  text-align: center;
+  border: 33px solid #B88846;
+  border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+
+}
+
+.sign-up-form h1 {
+  color: #135585;
+  margin-bottom: 30px;
+}
+
+.input-box {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #999;
+  outline: none;
+}
+
+.btn1 {
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.signup-btn {
+  background-color: #1c8adb;
+}
+
+a {
+  text-decoration: none;
+}
+hr {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.or {
+  background: #fff;
+  width: 30px;
+  margin: -19px auto 10px;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+.artbookLink {
+  width: 200px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500px;
+  margin: 0 auto;
+}
+
+form#artistSearch {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  float: left;
+}
+
+/* img {
+  width: 90px;
+} */
+
+.fancy-border {
+  border: 25px solid #B88846;
+  border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23B88846' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+}
+
+#bodylogin {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50px,-50%);
+  -moz-transform: translate(-50%,-50px);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 400px;
+  height: 500px;
+  padding: 80px 40px;
+  background: rgba(0,0,0, 0.6);
+}
+
+.avatar {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  top: calc(-80px/2);
+  left: calc(50% - 40px);
+}
+
+.contact-form h2 {
+  font-family: sans-serif;
+  font-size: 42px;
+  margin: 0;
+  padding: 0 0 20px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.contact-form input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contact-form input[type=email],
+.contact-form input[type=password]{
+  border:none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  outline: none;
+  height: 35px;
+  color: #fff;
+  font-size: 15px;
+  
+}
+
+.contact-form input[type=submit] {
+  height: 30px;
+  color: white;
+  font-size: 15px;
+  background: red;
+  cursor: pointer;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  margin-top: 15%;
+}
+
+input[type=checkbox] {
+  width: 20%;
+}
+
+#bodylogin {
+  content: ' ';
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://robbreport.com/wp-content/uploads/2019/02/louvre-c.jpg?w=1000);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contact-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  height: 500px;
+  padding: 80px 40px;
+  box-sizing: border-box;
+  background: rgba(0.0.0..5);
+}
+
+#loginbtncolor {
+  color: white;
+}
+
+.orlogin {
+  color: white;
+  width: 30px;
+  margin: -19px auto 10px;
+  margin-top: 1px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.plogin {
+  color: white;
+  text-align: center;
+  margin: -19px auto 10px;
+  margin-top: 1px;
+  font-size: 15px;
+}

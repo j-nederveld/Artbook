@@ -1,0 +1,87 @@
+.developer {
+    border: 1px solid red;
+  }
+
+  /* .row {
+    display: flex;
+    flex-flow: wrap;
+  } */
+
+  .card {
+    background-color: #dbd7d2;
+    /* margin: 10px;
+    padding: 12px; */
+    border-radius: 5px;
+    border: black thin solid;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .display-4 {
+    color: white;
+    font-family: 'Alex Brush', cursive;
+  }
+
+  .bodyGal {
+    background-color: #f8f8ff;
+  }
+
+  .card-title,
+  p,
+  h2 {
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  img:hover {
+    transform: scale(5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    position: absolute;
+  }
+
+  .jumbotron {
+    background-image: url("../images/tateart.jpg");
+    background-position: center;
+    z-index: 1;
+  }
+
+  .placeholder-1, .placeholder-2, .placeholder-3, .placeholder-4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .placeholder-1 {
+    background-image: url("https://cdn8.openculture.com/wp-content/uploads/2014/12/Nigel-Henderson.jpg");
+    height: 400px;
+}
+
+  .placeholder-2 {
+    background-image: url("https://cdn8.openculture.com/wp-content/uploads/2014/12/Josef-Herman-e1419224120456.jpg");
+    height: 400px;
+}
+
+.placeholder-3 {
+    background-image: url("https://cdn8.openculture.com/wp-content/uploads/2014/12/David-Jones-Sketch.jpg");
+    height: 331px;
+}
+
+.placeholder-4 {
+    background-image: url("https://cdn8.openculture.com/wp-content/uploads/2014/12/Kenneth-Armitage-Letter.jpg");
+    height: 590px;
+}
+
+.placeholder-5 {
+    background-image: url("https://www.tate.org.uk/art/images/work/N/N00/N00476_10.jpg");
+    height: 700px;
+}
+
+
+.align-left {
+    text-align: left;
+}

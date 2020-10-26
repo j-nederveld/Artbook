@@ -1,0 +1,214 @@
+.bodyM {
+
+    overflow: hidden;
+    color: #0ff;
+  }
+
+
+  .deleteArt {
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  a {
+    font-size: 17px;
+     color: #f4faff;
+     text-align: center;
+  }
+
+  
+  .backbtn {
+    width: 250px;
+    margin: 0 auto;
+    font-size: 24px;
+  }
+
+  img{
+  border: 10px solid #2b2f2f;
+}
+  hard {
+    background-color: #00f;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pg1 {
+    background-color: #ff0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pg2 {
+    background-color: #0ff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pg3 {
+    background-color: #f0f;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pg4 {
+    background-color: #f00;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #flipbook {
+    display: flex;
+    justify-content: center;
+    width: 1500px;
+    height: 1860;
+    align-items: center;
+    float: center;
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+  
+  #flipbook .page{
+    width:600px;
+    height:960px;
+    background-color:white;
+    line-height:300px;
+    font-size:20px;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #flipbook .page-wrapper{
+    -webkit-perspective:2000px;
+    -moz-perspective:2000px;
+    -ms-perspective:2000px;
+    -o-perspective:2000px;
+    perspective:2000px;
+  }
+  
+  
+  #flipbook .hard{
+    background-image: url(../images/artbookcover.png) !important;
+    background-position: center;
+    color: #FFF;
+    font-weight:bold;
+    font-size: xx-large;
+  }
+  
+  #flipbook .odd{
+    background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #FFF), color-stop(1, #DADADA));
+    background-image:-webkit-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:-moz-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:-ms-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:-o-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    -webkit-box-shadow:inset 0 0 5px #666;
+    -moz-box-shadow:inset 0 0 5px #666;
+    -o-box-shadow:inset 0 0 5px #666;
+    -ms-box-shadow:inset 0 0 5px #666;
+    box-shadow:inset 0 0 5px #666;
+    
+  }
+  
+  #flipbook .even{
+    background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #fff), color-stop(1, #dadada));
+    background-image:-webkit-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-moz-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-ms-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-o-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:linear-gradient(left, #fff 95%, #dadada 100%);
+    -webkit-box-shadow:inset 0 0 5px #666;
+    -moz-box-shadow:inset 0 0 5px #666;
+    -o-box-shadow:inset 0 0 5px #666;
+    -ms-box-shadow:inset 0 0 5px #666;
+    box-shadow:inset 0 0 5px #666;
+  }
+  /* photos in artbook */
+  
+  .bodyA {
+    background-image: url(../images/readingroom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 0;
+    background-color: #f7f1f1;
+    color: rgba(255, 255, 255, 0.1);  
+  }
+  h1 {
+      color: #f2f6fa;
+      text-align: center;
+  }
+
+  h4 {
+      color: #ffffff;
+      text-align: center;
+      shape-rendering: auto;
+  }
+  
+  .gallery {
+    width: 600px;
+    margin: auto;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .img-c {
+    width: 200px;
+    height: 200px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .img-w {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: transform ease-in-out 300ms;
+  }
+  
+  .img-w img {
+    display: none;
+  }
+  
+  .img-c {
+      transition: width ease 400ms, height ease 350ms, left cubic-bezier(0.4, 0, 0.2, 1) 420ms, top cubic-bezier(0.4, 0, 0.2, 1) 420ms;
+  }
+  
+  .img-c:hover .img-w {
+    transform: scale(1.08);
+    transition: transform cubic-bezier(0.4, 0, 0.2, 1) 450ms;
+  }
+  
+  .img-c.active {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    z-index: 2;
+    transform: translateX(-50%);
+  }
+  
+  .img-c.postactive {
+    position: absolute;
+    z-index: 2;
+    pointer-events: none;
+  }
+  
+  .img-c.active.positioned {
+    left: 0 !important;
+    top: 0 !important;
+    transition-delay: 50ms;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #dfd7be;
+    color: rgb(7, 7, 7);
+    text-align: center;
+ }
