@@ -3,11 +3,6 @@
 ## Description
 The Art Book application is for art lovers who want to experience the beauty of an art gallery in the palm of their hands. Once a profile is created, they can scroll through art or save art to their very own Art Book. 
 
-## Repo and Deployed Page
-* Github Repository: https://github.com/eschiavoni2/Project2
-
-* Heroku Deployed Page: https://theartroom.herokuapp.com/
-
 ## Technologies Used
 * Tate Art museum database
 
