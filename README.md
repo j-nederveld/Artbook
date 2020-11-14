@@ -27,4 +27,3 @@ The Art Book application is for art lovers who want to experience th
 
 * If the user enters the Art Book page, they can have all of their favorite art in one place.
 
-![Art Book](public/images/artbook1.PNG)
